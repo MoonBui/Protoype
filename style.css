@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+    background-color: #3ab1f4;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(#3AB1F4, white);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.login-form h1,
+.button {
+    text-align: center;
+}
+
+.login-form:not(.button) {
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: 700;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 10px 7px 10px 8px lightslategrey;
+}
+
+input::placeholder {
+    font-family: 'Sulphur Point', sans-serif;
+    opacity: 50%;
+}
+
+.login-form label,
+.login-form input {
+    margin-left: 150px;
+    width: 400px;
+}
+
+.login-form input {
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 1em;
+}
+
+.login-form input:focus {
+    outline: none;
+}
+
+.input-icons {
+    padding-bottom: 2em;
+}
+
+.icon {
+    padding: 10px;
+    text-align: center;
+}
+
+.button button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: larger;
+    width: 250px;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    background-image: linear-gradient(55deg, #44BBFF, #CDEBFB);
+}
