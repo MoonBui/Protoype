@@ -82,7 +82,7 @@ input::placeholder {
 /* Doctor View */
 
 .curved-background {
-    position: fixed;
+    position: absolute;
     padding: 0;
     margin: 0;
     top: 0;
@@ -172,4 +172,54 @@ input::placeholder {
 #user-ava {
     max-width: 10%;
     height: auto;
+}
+
+.patient-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: none;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+
+#doc-headline {
+    margin-top: 4em;
+    margin-bottom: none;
+    margin-left: 5em;
+    color: #3AB1F4;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.patient-box {
+    border: solid 1px #3AB1F4;
+    display: flex;
+    max-width: 80%;
+    margin: 2em;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 1px #B0D9F0;
+}
+
+.patient-items {
+    justify-content: center;
+    align-items: center;
+}
+
+.ava-box {
+    width: 25%;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.patient-items img {
+    max-width: 30%;
+}
+
+.patient-items h2 {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    margin: none;
+    padding: none;
 }
