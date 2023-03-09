@@ -17,18 +17,26 @@
         <div>
             <div class="login-form">
                 <h1>Login</h1>
-                <div class="input-icons">
-                    <label for="username">Username</label><br>
-                    <!-- <i class="material-symbols-outlined icon">account_circle</i> -->
-                    <input type="text" name="username" id="username" placeholder="Enter your username" required><br>
-                </div>
-                <div class="input-icons">
-                    <label for="password">Password</label><br>
-                    <input type="password" name="password" id="password" placeholder="Enter your username" required><br>
-                </div>
-                <div class="button">
-                    <button>Login</button>
-                </div>
+                <form id="loginForm" action="./connectDB">
+                    <div class="input-icons">
+                        <label for="username">Username</label><br>
+                        <!-- <i class="material-symbols-outlined icon">account_circle</i> -->
+                        <input type="text" name="username" id="username" placeholder="Enter your username" required><br>
+                    </div>
+                    <div class="input-icons">
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password" placeholder="Enter your username" required><br>
+                    </div>
+                    <div class="button">
+                        <button onclick="submitLogin()">Login</button>
+                    </div>
+                </form>
+
+                <script>
+                    function submitLogin() {
+                        document.getElementById("loginForm").submit();
+                    }
+                </script>
             </div>
         </div>
     </div>
