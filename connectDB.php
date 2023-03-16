@@ -9,16 +9,12 @@ $database = "dental"; //this stuff you have to change individually
 
 // Create a connection to the MySQL database
 $conn = mysqli_connect($hostname, $username, $password, $database);
-print("Connect Was run");
+// print("Connect Was run");
 // Check if the connection was successful
 if (!$conn) {
     echo "It Broke";
     die("Connection failed: " . mysqli_connect_error());
 }
-print("Connect ran successfully");
-
-// Close the database connection
-mysqli_close($conn);
-
+// print("Connect ran successfully");
 ?>
 
