@@ -119,31 +119,6 @@ input::placeholder {
     background-repeat: no-repeat;
 }
 
-
-/* .curved-background:before {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 340px;
-    height: 80px;
-    background-color: white;
-    right: -5px;
-    top: 40px;
-}
-
-.curved-background {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 300px;
-    height: 70px;
-    background-color: linear-gradient(#3AB1F4, white);
-    left: 0;
-    top: 27px;
-} */
-
 .flex-container-doctor {
     display: flex;
     justify-content: center;
@@ -183,7 +158,17 @@ input::placeholder {
     text-align: center;
     width: 33.3%;
     font-family: 'Sulphur Point', sans-serif;
+}
+
+.doc-items button {
+    border: none;
+    background-color: transparent;
     color: #3AB1F4;
+}
+
+.doc-items a {
+    color: #3AB1F4;
+    text-decoration: none;
 }
 
 .hvr-grow {
