@@ -160,6 +160,10 @@ input::placeholder {
     font-family: 'Sulphur Point', sans-serif;
 }
 
+.second-row {
+    padding-top: 100px;
+}
+
 .doc-items button {
     border: none;
     background-color: transparent;

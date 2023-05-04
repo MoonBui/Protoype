@@ -35,7 +35,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     if ($password === $row['Password']) {
                         if ($row['UserType'] === 'Dentist') {
                             // Redirect the user to the correct page for Dentist
-                            header("location: doctor.html");
+                            header("location: doctor.php");
+                        } elseif ($row['UserType'] === 'Patient') {
+                                // Redirect the user to the correct page for Dentist
+                                header("location: patient.html");
                         } else {
                             // Redirect the user to the correct page for other types of users
                             print('Have not coded this part yet hehe');
