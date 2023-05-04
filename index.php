@@ -41,8 +41,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                             print('Have not coded this part yet hehe');
                         }
                         // Make session.php 
-                        // $_SESSION["userid"] = $row['id'];
-                        // $_SESSION["user"] = $row;
+                        $_SESSION["userid"] = $row['UserID'];
+                        $_SESSION["user"] = $row;
                         $valid_password = true;
                         exit;
                     }

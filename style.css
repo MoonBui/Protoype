@@ -257,4 +257,26 @@ input::placeholder {
     font-family: Sulphur Point;
     font-size: 40px;
     font-weight: bold;
-  }
+}
+
+
+/* Payroll View */
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table,
+th,
+td {
+    border: 1.5px solid;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: right;
+}
