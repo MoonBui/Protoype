@@ -252,3 +252,9 @@ input::placeholder {
     margin: none;
     padding: none;
 }
+
+.schedule-text {
+    font-family: Sulphur Point;
+    font-size: 40px;
+    font-weight: bold;
+  }
